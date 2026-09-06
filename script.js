@@ -15,6 +15,7 @@ function openFullscreen() {
   }
 
   document.getElementById("fullscreen").style.display = "none";
+  document.getElementById("myAudio").play(); 
 }
 
 
